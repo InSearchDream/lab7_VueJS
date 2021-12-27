@@ -1,0 +1,102 @@
+
+.navbar-header
+{ 
+  color:grey;
+  font-size: 30px;
+  text-align: center;
+}
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 6px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #385898;
+	background-color: #F2F8F8;
+	cursor: pointer;
+    width: 100%;	
+}
+.btn:focus-visible {
+	box-shadow: 0 0 0 2px #666;
+}
+.btn:hover {
+	background-color: #DBE7F2;
+}
+.btn:active {
+	transform: scale(0.96);
+}
+.btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #F2F8F8;
+	font-size: 15px;
+	background: #fff;
+}
+.table th {
+	font-weight: bold;
+	padding: 7px;
+	background: #F2F8F8;
+	color: #385898;
+	border: none;
+	text-align: center;
+	font-size: 25px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #F2F8F8;
+	
+}
+.table td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 15px;
+}
+.table tbody tr:nth-child(even){
+	background: #f8f8f8;
+}
+
+h3 {
+    font-size: 30px;
+	text-align: center;
+	color: #385898;
+}
+
+.form-group{
+	border: 0;
+	
+}
+fieldset input {
+  text-align: center;
+}
+fieldset {
+  height: 50%;
+  width: 80%;
+  background: #ffffff;
+  margin: auto;
+  text-align: center;
+}
+
+input[type=text]{
+   width:350px;
+}
+
+
+
+
+
